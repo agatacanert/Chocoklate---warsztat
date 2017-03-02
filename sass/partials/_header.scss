@@ -1,0 +1,93 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.main {
+	width: 900px; 
+	margin: 0 auto;
+}
+
+.black {
+	background-color: black;
+
+}
+
+.tlo {
+	background-image: url('../img/tlo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position:relative;
+
+}
+
+.logo {
+	padding: 2% 0;
+}
+
+
+li{
+	display: inline-block;
+		a{
+			text-decoration: none;
+			color: white;
+			padding-left: 10px;
+				span{
+					color:#45add8;
+				}
+		}
+}
+
+.contact {
+	background-image: url('../img/chmurka.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 313px;
+	height: 68px; 
+	position: absolute;
+	left: 280px;
+    top: -1px;
+    display: flex;
+	align-items: flex-start;
+	padding: 10px 30px;
+    	p{
+    		font-size: 12px;
+    		padding-left: 5px; 
+    			span{
+    				font-size:18px;
+    			}
+    	}
+}
+
+.info {
+    height: 190px;
+	background-image: url('../img/ill1.png');
+	background-repeat: no-repeat;
+	background-position: right -60px;
+	display: flex;
+	align-items: center;
+		p{
+			width: 55%;
+			color: white; 
+			font-size: 16px;
+			line-height: 24px;
+		}
+		h1 {
+			color: white;
+			font-size: 30px;
+			line-height: 56px;
+			font-style: bold; 
+		}
+}
+
+.second {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
