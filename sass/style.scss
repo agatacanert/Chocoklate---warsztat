@@ -1,0 +1,100 @@
+// zadanie 1 
+
+.list{
+	display: flex; 
+	justify-content: center;
+	list-style: none; 
+		li{
+			padding-right: 5px;
+		}
+		
+}
+
+// zadanie 2 
+
+.circles{
+	display:flex;
+	
+	align-items:flex-start;
+	flex-wrap:wrap; 
+	justify-content: center;
+		.kolo{
+			border-radius: 50%; 
+			background-color: red;
+			flex-basis:250px;
+			height: 250px;
+			display:flex;
+				p{
+					margin:auto;
+				}
+
+		}
+}
+
+// zadanie 3 
+
+.crazy-layout {
+	display:flex;
+	flex-wrap:wrap; 
+		.squer{
+			height:100px; 
+			background-color:green; 
+			display:flex;
+			border:5px solid white;
+			box-sizing: border-box;
+				p{
+				margin: auto;
+				}
+	
+		}
+}
+
+.crazy-layout {	
+		.one, .ten{
+			flex-basis:100%;
+		}
+		.two, .three {
+			 flex-basis:50%; 
+		}
+		.four, .five, .six, .seven{
+			flex-basis:25%;
+		}
+		.eight {
+			flex-basis:70%;
+		}
+		.nine {
+			flex-basis:30%;
+		}
+		
+}
+
+@media (max-width: 420px){
+	.crazy-layout {	
+
+			.four, .five, .six, .seven{
+				flex-basis: 50%;
+			}
+			.four {
+				order: 1; 
+			}
+			.six {
+				order: 3;
+			}
+			.seven {
+				order: 2; 
+			}
+			.eight {
+			flex-basis:100%;
+				order: 4; 
+			}
+			.nine, .two, .three {
+				flex-basis:100%;
+			}
+			.nine{
+				order: 6;
+			}
+			.ten{
+				order: 5;
+			}
+	}
+}

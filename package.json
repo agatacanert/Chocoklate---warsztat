@@ -1,0 +1,11 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "> Instalacja i uruchomienie Gulpa może przysporzyć na początku trochę problemów.\r > Pamiętaj, że im więcej problemów teraz napotkasz tym później będzie łatwiej. Naucz się czytać\r > informacje wyrzucane przez konsolę.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
