@@ -1,0 +1,83 @@
+
+.left {
+	display: flex;
+	align-items: baseline;
+	padding-top: 30px;
+	h1{
+		font-size: 30px;
+		padding-bottom: 14px;
+		width:75%;
+		font-weight: bold;
+	}
+	h2{
+		width:25%;
+		font-size: 24px;
+		color: #45add8; 
+	}
+}
+
+.location {
+	overflow: hidden;	
+}
+
+.location {
+	width: 75%; 
+	padding-right: 10px;
+		img {
+			float:left;
+			padding-right: 18px;
+			} 
+		p {
+			font-size: 14px;
+			line-height: 20px;
+
+			}		
+}
+
+.bar {
+	clear: both;
+	font-size: 14px;
+	line-height: 20px;
+	width: 25%; 
+}
+
+.third {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding-bottom: 30px;
+}
+
+.cookie{
+	padding: 20px 0;
+	h1{
+		 	font-weight: bold;
+		 	font-size: 30px; 
+		 	color: white;
+		 }
+	
+	.work {
+		color: white;
+		display: flex;
+		padding: 25px 0;
+			.paragraph{
+			 width: 25%;
+			 padding: 0 15px 0 0;
+
+			}
+			.imgs{
+				width: 75%;
+			}
+		 
+	}
+}
+
+.food {
+	padding: 30px 0;
+		h1{
+			font-weight: bold;
+		 	font-size: 30px; 
+		 	padding-bottom: 20px;
+		}
+}
+

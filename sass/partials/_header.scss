@@ -51,7 +51,7 @@ li{
 	height: 68px; 
 	position: absolute;
 	left: 280px;
-    top: -1px;
+    top: -4px;
     display: flex;
 	align-items: flex-start;
 	padding: 10px 30px;
@@ -81,7 +81,7 @@ li{
 			color: white;
 			font-size: 30px;
 			line-height: 56px;
-			font-style: bold; 
+			font-weight: bold; 
 		}
 }
 
@@ -89,5 +89,11 @@ li{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+header {
+	-webkit-box-shadow: 3px 9px 40px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 9px 40px -8px rgba(0,0,0,0.75);
+	box-shadow: 3px 9px 40px -8px rgba(0,0,0,0.75);
 }
 
