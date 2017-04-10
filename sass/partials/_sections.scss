@@ -73,11 +73,52 @@
 }
 
 .food {
+	width: 80%;
 	padding: 30px 0;
 		h1{
 			font-weight: bold;
 		 	font-size: 30px; 
 		 	padding-bottom: 20px;
+
 		}
 }
+
+.earth{
+	padding: 30px 0;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+		div{
+			width:80%;
+		}
+		img{
+
+		}
+}
+
+.cookie{
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+		.yumy{
+		 padding: 40px;
+		 color: white;
+		 box-sizing: border-box;
+			h1{
+				padding-bottom: 20px;
+				text-align: right;
+			}
+			a{
+			text-decoration: none; 
+			color: white;
+			display: block;
+			text-align: right;
+			padding-top: 25px;
+			}
+		}
+}
+
+
+
 
