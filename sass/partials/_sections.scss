@@ -13,6 +13,7 @@
 		width:25%;
 		font-size: 24px;
 		color: #45add8; 
+		font-family: 'Mandali', sans-serif;
 	}
 }
 
@@ -22,7 +23,7 @@
 
 .location {
 	width: 75%; 
-	padding-right: 10px;
+	padding-right: 25px;
 		img {
 			float:left;
 			padding-right: 18px;
@@ -38,7 +39,20 @@
 	clear: both;
 	font-size: 14px;
 	line-height: 20px;
-	width: 25%; 
+	width: 25%;
+	font-family: 'Mandali', sans-serif;
+		 .big{
+		 	font-size: 18px;
+		 	color: #45add8;
+		 } 
+		 .bigger{
+		 	font-size: 24px;
+		 	color: #11bdd8;
+		 }
+		 .grey{
+		 	color: grey;
+		 	font-size: 16px;
+		 }
 }
 
 .third {
@@ -102,15 +116,14 @@
 	align-items: center;
 	justify-content: space-between;
 		.yumy{
-		 padding: 40px;
+		 padding: 25px 40px;
 		 color: white;
 		 box-sizing: border-box;
 			h1{
 				padding-bottom: 20px;
 				text-align: right;
 			}
-			a{
-			text-decoration: none; 
+			a{ 
 			color: white;
 			display: block;
 			text-align: right;
